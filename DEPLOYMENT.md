@@ -66,16 +66,66 @@ Replace `YOUR_REPO_NAME` with either:
 
 ## Step 5: Enable GitHub Actions (if needed)
 
-1. In your repository, go to **Actions** tab
-2. If you see a message about enabling workflows, click **"I understand my workflows, go ahead and enable them"**
-3. The deployment workflow will run automatically on every push to `main`
+1. **First, make sure the workflow file was pushed:**
+   - Go to your repository on GitHub
+   - Check if you can see `.github/workflows/deploy.yml` in the file list
+   - If not, make sure you pushed all files including the `.github` folder
+
+2. **Enable GitHub Actions:**
+   - Go to your repository → **Settings** tab (top navigation bar)
+   - Scroll down to **Actions** in the left sidebar (under Settings)
+   - Under **Actions permissions**, select **"Allow all actions and reusable workflows"**
+   - Click **Save**
+
+3. **Go to the Actions tab (NOT Settings → Actions):**
+   - Look at the **top navigation bar** of your repository (where you see Code, Issues, Pull requests, etc.)
+   - Click on **"Actions"** tab (this is different from Settings → Actions)
+   - You should see either:
+     - A list of workflow runs (if any have run)
+     - "No workflow runs found yet" message
+     - A message asking to enable workflows
+   - If you see "No workflow runs found", the workflow will trigger automatically on the next push
+
+4. **Verify the workflow file exists on GitHub:**
+   - In your repository, navigate to `.github/workflows/deploy.yml`
+   - If you can't find it, the file wasn't pushed. Run:
+     ```bash
+     cd "D:\CV\New format\portfolio"
+     git add .github
+     git commit -m "Add GitHub Actions workflow"
+     git push
+     ```
+
+5. **Manually trigger the workflow:**
+   - Go to **Actions** tab in your repository
+   - You should see a list of workflows on the left side
+   - Look for **"Deploy to GitHub Pages"** in that list
+   - If you see it, click on it, then click the **"Run workflow"** dropdown button (top right)
+   - Select `main` branch and click **"Run workflow"**
+   - **If you don't see "Deploy to GitHub Pages" in the list:**
+     - Make sure you're on the **Actions** tab (not Settings → Actions)
+     - Try refreshing the page
+     - The workflow should appear automatically after the file is pushed
+     - If it still doesn't appear, try making a small change and pushing again
 
 ## Step 6: Wait for Deployment
 
 1. Go to the **Actions** tab in your repository
 2. You should see a workflow run called "Deploy to GitHub Pages"
-3. Wait for it to complete (usually 2-3 minutes)
-4. Once it's done, you'll see a green checkmark
+   - If you don't see it, try pushing a small change to trigger it:
+     ```bash
+     git commit --allow-empty -m "Trigger workflow"
+     git push
+     ```
+3. Click on the workflow run to see the progress
+4. Wait for it to complete (usually 2-3 minutes)
+5. Once it's done, you'll see a green checkmark ✓
+
+**If Actions tab is missing or not working:**
+- Make sure your repository is **Public** (required for free GitHub Pages)
+- Check that you have the `.github/workflows/deploy.yml` file in your repository
+- Try refreshing the page or checking in a different browser
+- If still not working, you can use the alternative method below
 
 ## Step 7: Access Your Site
 
@@ -107,6 +157,43 @@ If you want to use a custom domain like `reshamdilawari.io` instead of `reshamdi
    - Update `url` in `src/data/resume.tsx` to `https://reshamdilawari.io`
 
 **Important:** The repository name must still be `reshamdilawari.github.io` even when using a custom domain.
+
+## Alternative: Manual Deployment (if GitHub Actions doesn't work)
+
+If GitHub Actions is not working, you can deploy manually:
+
+1. **Build the site locally:**
+   ```bash
+   cd "D:\CV\New format\portfolio"
+   npm install
+   npm run build
+   ```
+   This creates an `out` folder with your static site.
+
+2. **Push the `out` folder to a `gh-pages` branch:**
+   ```bash
+   git checkout -b gh-pages
+   git add out/
+   git commit -m "Deploy to GitHub Pages"
+   git subtree push --prefix out origin gh-pages
+   ```
+   Or use a tool like `gh-pages`:
+   ```bash
+   npm install --save-dev gh-pages
+   ```
+   Then add to `package.json` scripts:
+   ```json
+   "deploy": "npm run build && gh-pages -d out"
+   ```
+   Then run: `npm run deploy`
+
+3. **Configure GitHub Pages to use `gh-pages` branch:**
+   - Go to repository → **Settings** → **Pages**
+   - Source: **Deploy from a branch**
+   - Branch: `gh-pages`, folder: `/ (root)`
+   - Click **Save**
+
+**Note:** The GitHub Actions method is preferred as it automatically rebuilds on every push.
 
 ## Troubleshooting
 

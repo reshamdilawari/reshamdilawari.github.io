@@ -64,12 +64,16 @@ export const DATA = {
       description:
       [
         "Owned the end-to-end lifecycle of 2 digital products, including an AI-powered learning platform with mobile apps, from ideation to global launch, scaling adoption to 300K+ users per product across 60,000+ schools",
+        "Conducted customer interviews, surveys, and competitor benchmarking to translate user and business needs into actionable product decisions, while managing 20+ Agile release cycles annually",
         "Drove data-informed prioritization by tracking and acting on key metrics such as course completion rate, renewal rate, and feature adoption",
         "Partnered with Engineering, Design, Content, Ops, and Support to mitigate delivery risk and ensure execution rigor, achieving 96% on-time delivery across platform and content releases",
         "Established structured QA and review loops to improve product quality and drive continuous iteration post-launch",
         "Managed 6 strategic key accounts, delivering customized solutions, streamlining onboarding, and introducing retention-focused initiatives",
         "Led the creation of product explainers, testimonials, promotional materials and social media creatives with the Design team, supporting user acquisition and growth to 100K+ MAUs",
         "Partnered with Ops and Support teams on field testing and phased rollouts, maintaining 99% SLA and achieving 87% CSAT",
+        "Streamlined Agile delivery processes, saving 600+ man-hours annually and improving team productivity by 5%",
+        "Led integration of 3 international payment providers and enhanced scheduling capabilities for clients serving 25K+ end users",
+        "Drove international market expansion and partnered with 12+ external entities to strengthen the ecosystem and unlock new use cases"
       ]
     },
     {
