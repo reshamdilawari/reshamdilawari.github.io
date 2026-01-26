@@ -182,7 +182,10 @@ export const DATA = {
         "Drove rapid prototyping and iteration using AI-assisted development tools (Cursor) and defined integration of Google Maps APIs to support delivery and location-based workflows"
       ],
       technologies: [
-        "Javascript",
+        "Python FastAPI",
+        "Next.js",
+        "Typescript",
+        "Tailwind",
         "Google Maps API",
         "Cursor"
       ],
