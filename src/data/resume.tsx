@@ -187,7 +187,8 @@ export const DATA = {
         "Typescript",
         "Tailwind",
         "Google Maps API",
-        "Cursor"
+        "Cursor",
+        "Oracle Cloud"
       ],
       links: [],
       image: "",
