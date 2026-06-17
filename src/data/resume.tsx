@@ -8,7 +8,7 @@ export const DATA = {
   description:
     "Senior Product Manager driven by curiosity and first-principles thinking, focused on solving real customer and business problems.",
   summary:
-    "Senior Product Manager with 7.5 years of experience building and scaling global B2B, B2B2C, and enterprise digital platforms across Health Insurance, Relocation, EdTech and E-commerce. Proven track record of leading product launches, ecosystem integrations, product revamps, and UI/UX improvements, driving outcomes such as a 92% customer recommendation rate. Strong expertise across the end-to-end product lifecycle, Agile execution, and cross-functional leadership. Known for curiosity-driven discovery, active listening, and detail-oriented execution to translate customer and business insights into data-informed product decisions.",
+    "Senior Product Manager with 8 years of experience building and scaling B2B, B2B2C, and enterprise digital products across EdTech, Health Insurance, Relocation, and E-commerce, serving global clients. Led 0→1 launches and product revamps, growing adoption to 36k+ average MAUs and achieving a 92% customer recommendation rate. Experienced in end-to-end product lifecycle management, Agile delivery, and cross-functional leadership, translating customer insights and data into product decisions that drive measurable outcomes, with a meticulous approach to execution and quality.",
   skills: [
     "Product Management",
     "Growth Strategy",
@@ -21,13 +21,16 @@ export const DATA = {
     "Team Management",
     "Prompt Engineering",
     "Cursor",
+    "Lovable",
+    "Antigravity",
     "API",
     "SQL",
     "Tableau",
     "Google Analytics",
     "Microsoft Clarity",
     "Figma",
-    "Jira"
+    "Jira",
+    "Microsoft Office"
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -63,17 +66,15 @@ export const DATA = {
       end: "Present",
       description:
       [
-        "Owned the end-to-end lifecycle of 2 digital products, including an AI-powered learning platform with mobile apps, from ideation to global launch, scaling adoption to 300K+ users per product across 60,000+ schools",
-        "Conducted customer interviews, surveys, and competitor benchmarking to translate user and business needs into actionable product decisions, while managing 20+ Agile release cycles annually",
-        "Drove data-informed prioritization by tracking and acting on key metrics such as course completion rate, renewal rate, and feature adoption",
-        "Partnered with Engineering, Design, Content, Ops, and Support to mitigate delivery risk and ensure execution rigor, achieving 96% on-time delivery across platform and content releases",
-        "Established structured QA and review loops to improve product quality and drive continuous iteration post-launch",
-        "Managed 6 strategic key accounts, delivering customized solutions, streamlining onboarding, and introducing retention-focused initiatives",
-        "Led the creation of product explainers, testimonials, promotional materials and social media creatives with the Design team, supporting user acquisition and growth to 100K+ MAUs",
-        "Partnered with Ops and Support teams on field testing and phased rollouts, maintaining 99% SLA and achieving 87% CSAT",
-        "Streamlined Agile delivery processes, saving 600+ man-hours annually and improving team productivity by 5%",
-        "Led integration of 3 international payment providers and enhanced scheduling capabilities for clients serving 25K+ end users",
-        "Drove international market expansion and partnered with 12+ external entities to strengthen the ecosystem and unlock new use cases"
+        "Owned product strategy and launch of a 0→1 AI-powered English learning application and revamp of a legacy product, scaling adoption to 300K+ users per product across 36,000+ schools",
+        "Defined and shipped the product roadmap across onboarding (Freemium upgrade, Guided Tour), engagement (Streaks, Leaderboard), and learning (Resume Learning, Dictionary, Translation, AI-based speaking feedback, multi-content exploration) across 20+ Agile release cycles annually, driving an average session time of 8.4 minutes",
+        "Conducted customer interviews, surveys, and competitor benchmarking and tracked metrics such as course completion rate, renewal rate, and feature adoption to drive data-informed feature prioritisation and roadmap sequencing",
+        "Worked with cross-functional teams to mitigate delivery risk, and established structured QA and review loops to drive continuous improvements, achieving 96% on-time delivery of the product and content releases",
+        "Collaborated with Operations and Support teams on change management initiatives and phased roll-outs, maintaining 99% SLA and achieving 87% CSAT",
+        "Led the creation of application designs, product explainers, testimonials, promotional materials, and social media creatives with the Design team, supporting user acquisition and growth, reaching a high of 95K+ MAUs",
+        "Managed 6 strategic key accounts and partnered with 12+ entities, leading application integrations, streamlining onboarding for the accounts and delivering customised solutions, contributing to account renewals",
+        "Leveraged AI tools (Lovable, Antigravity) to generate designs and build feature prototypes, accelerating design iteration and feature validation",
+        "Streamlined Agile delivery processes, saving 605+ hours annually and boosting team productivity by 5%"
       ]
     },
     {
@@ -178,8 +179,9 @@ export const DATA = {
       dates: "Jan 2026 - Present",
       active: true,
       description: [
-        "Conceptualized and delivered an end-to-end e-commerce application for a small-to-medium stationery business, covering admin operations and customer-facing workflows",
-        "Drove rapid prototyping and iteration using AI-assisted development tools (Cursor) and defined integration of Google Maps APIs to support delivery and location-based workflows"
+        "Spearheaded the 0-to-1 development of a full-stack e-commerce application, for B2B and B2C segments, defining product requirements and prioritizing the roadmap for both customer-facing purchasing journeys and internal admin tools",
+        "Drove rapid prototyping and technical integration using AI tools (Cursor, Antigravity) to build out complex workflows, seamlessly integrating multiple 3rd-party applications for SMS services, marketing and analytics",
+        "Optimized backend operations by designing scalable administrative features, including bulk product upload, customer segmentation, notifications, reporting and system-monitoring alerts, significantly reducing manual overhead for the business"
       ],
       technologies: [
         "Python FastAPI",
@@ -188,6 +190,8 @@ export const DATA = {
         "Tailwind",
         "Google Maps API",
         "Cursor",
+        "Lovable",
+        "Antigravity",
         "Oracle Cloud"
       ],
       links: [],
