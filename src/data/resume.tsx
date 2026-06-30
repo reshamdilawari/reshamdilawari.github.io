@@ -67,14 +67,13 @@ export const DATA = {
       description:
       [
         "Owned product strategy and launch of a 0→1 AI-powered English learning application and revamp of a legacy product, scaling adoption to 300K+ users per product across 36,000+ schools",
-        "Defined and shipped the product roadmap across onboarding (Freemium upgrade, Guided Tour), engagement (Streaks, Leaderboard), and learning (Resume Learning, Dictionary, Translation, AI-based speaking feedback, multi-content exploration) across 20+ Agile release cycles annually, driving an average session time of 8.4 minutes",
+        "Defined and shipped the product roadmap across onboarding (Freemium upgrade, Guided Tour), engagement (Streaks, Leaderboard), and learning (Resume Learning, Dictionary, Translation, AI-based speaking feedback, multi-content exploration) over 20+ Agile release cycles annually, driving an average session time of 8.4 minutes",
         "Conducted customer interviews, surveys, and competitor benchmarking and tracked metrics such as course completion rate, renewal rate, and feature adoption to drive data-informed feature prioritisation and roadmap sequencing",
         "Worked with cross-functional teams to mitigate delivery risk, and established structured QA and review loops to drive continuous improvements, achieving 96% on-time delivery of the product and content releases",
         "Collaborated with Operations and Support teams on change management initiatives and phased roll-outs, maintaining 99% SLA and achieving 87% CSAT",
         "Led the creation of application designs, product explainers, testimonials, promotional materials, and social media creatives with the Design team, supporting user acquisition and growth, reaching a high of 95K+ MAUs",
         "Managed 6 strategic key accounts and partnered with 12+ entities, leading application integrations, streamlining onboarding for the accounts and delivering customised solutions, contributing to account renewals",
-        "Leveraged AI tools (Lovable, Antigravity) to generate designs and build feature prototypes, accelerating design iteration and feature validation",
-        "Streamlined Agile delivery processes, saving 605+ hours annually and boosting team productivity by 5%"
+        "Leveraged AI tools (Lovable, Antigravity) to generate designs and build feature prototypes, accelerating design iteration and feature validation"
       ]
     },
     {
@@ -174,12 +173,12 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Stationery Junction",
+      title: "E-commerce app for a hyper-local stationery business",
       href: "#",
       dates: "Jan 2026 - Present",
       active: true,
       description: [
-        "Spearheaded the 0-to-1 development of a full-stack e-commerce application, for B2B and B2C segments, defining product requirements and prioritizing the roadmap for both customer-facing purchasing journeys and internal admin tools",
+        "Spearheaded the 0-to-1 AI-assisted development of a full-stack e-commerce application for B2B and B2C segments, defining product requirements and prioritizing the roadmap for both customer-facing purchasing journeys and internal admin tools",
         "Drove rapid prototyping and technical integration using AI tools (Cursor, Antigravity) to build out complex workflows, seamlessly integrating multiple 3rd-party applications for SMS services, marketing and analytics",
         "Optimized backend operations by designing scalable administrative features, including bulk product upload, customer segmentation, notifications, reporting and system-monitoring alerts, significantly reducing manual overhead for the business"
       ],
