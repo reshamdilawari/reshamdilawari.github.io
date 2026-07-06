@@ -155,6 +155,25 @@ export default function Page() {
               </h2>
               <div className="mx-auto max-w-[600px] space-y-2 text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 <p>
+                  Want to chat? Reach out on{" "}
+                  <Link
+                    href={DATA.contact.social.LinkedIn.url}
+                    className="text-blue-500 hover:underline"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    LinkedIn
+                  </Link>
+                  , <strong>call</strong> me, or send an{" "}
+                  <Link
+                    href={`mailto:${DATA.contact.email}`}
+                    className="text-blue-500 hover:underline"
+                  >
+                    email
+                  </Link>{" "}
+                  and I&apos;ll respond whenever I can.
+                </p>
+                <p>
                   Email:{" "}
                   <Link
                     href={`mailto:${DATA.contact.email}`}
@@ -163,33 +182,16 @@ export default function Page() {
                     {DATA.contact.email}
                   </Link>
                 </p>
+                <p>Phone: {DATA.contact.tel}</p>
                 <p>
-                  Phone:{" "}
                   <Link
-                    href={`tel:${DATA.contact.tel}`}
-                    className="text-blue-500 hover:underline"
-                  >
-                    {DATA.contact.tel}
-                  </Link>
-                </p>
-                <p>
-                  Want to chat? Just reach out to me on{" "}
-                  <Link
-                    href={DATA.contact.social.LinkedIn.url}
+                    href={DATA.contact.resume}
                     className="text-blue-500 hover:underline"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    LinkedIn
-                  </Link>{" "}
-                  or{" "}
-                  <Link
-                    href={`mailto:${DATA.contact.email}`}
-                    className="text-blue-500 hover:underline"
-                  >
-                    send me an email
+                    Download resume
                   </Link>
-                  {" "}and I&apos;ll respond whenever I can.
                 </p>
               </div>
             </div>

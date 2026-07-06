@@ -38,6 +38,8 @@ export const DATA = {
   contact: {
     email: "reshamdilawari@yahoo.in",
     tel: "+91-7205623982",
+    resume:
+      "https://drive.google.com/file/d/1tKE_tIpeZf3B14kPbVJDp603t4Ncnsw0/view?usp=drive_link",
     social: {
       LinkedIn: {
         name: "LinkedIn",
