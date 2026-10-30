@@ -68,14 +68,14 @@ export const DATA = {
       end: "Present",
       description:
       [
-        "Owned product strategy and launch of a 0→1 AI-powered English learning application and revamp of a legacy product, scaling adoption to 300K+ users per product across 36,000+ schools",
-        "Defined and shipped the product roadmap across onboarding (Freemium upgrade, Guided Tour), engagement (Streaks, Leaderboard), and learning (Resume Learning, Dictionary, Translation, AI-based speaking feedback, multi-content exploration) over 20+ Agile release cycles annually, driving an average session time of 8.4 minutes",
-        "Conducted customer interviews, surveys, and competitor benchmarking and tracked metrics such as course completion rate, renewal rate, and feature adoption to drive data-informed feature prioritisation and roadmap sequencing",
+        "Owned product strategy and launch of a 0→1 AI-powered English learning LMS and revamp of a legacy product, scaling adoption to 300K+ users per product across 36,000+ schools and institutions",
+        "Defined and shipped the product roadmap across onboarding (Freemium upgrade, Guided Tour), engagement (Streaks, Leaderboard, Daily Boost challenge), and learning (Resume Learning, Dictionary, Translation, multi-content exploration) over 20+ Agile release cycles annually, with Daily Streaks driving a 33% increase in average session time to 11.2 minutes in 2 months",
+        "Integrated LLM-powered speaking evaluation and a Conversation agent with a Feedback Credits model to balance user experience and cost efficiency, and leveraged AI tools (Lovable, Antigravity) to generate designs and build feature prototypes, accelerating design iteration and feature validation",
+        "Conducted customer interviews, surveys, and competitor benchmarking, tracked metrics such as course completion rate, renewal rate, and feature adoption, and monitored support ticket trends to drive data-informed feature prioritisation and roadmap sequencing",
         "Worked with cross-functional teams to mitigate delivery risk, and established structured QA and review loops to drive continuous improvements, achieving 96% on-time delivery of the product and content releases",
         "Collaborated with Operations and Support teams on change management initiatives and phased roll-outs, maintaining 99% SLA and achieving 87% CSAT",
         "Led the creation of application designs, product explainers, testimonials, promotional materials, and social media creatives with the Design team, supporting user acquisition and growth, reaching a high of 95K+ MAUs",
-        "Managed 6 strategic key accounts and partnered with 12+ entities, leading application integrations, streamlining onboarding for the accounts and delivering customised solutions, contributing to account renewals",
-        "Leveraged AI tools (Lovable, Antigravity) to generate designs and build feature prototypes, accelerating design iteration and feature validation"
+        "Managed 7 strategic key accounts and partnered with 12+ entities, leading application integrations, streamlining onboarding for the accounts and delivering customised solutions, contributing to account renewals"
       ]
     },
     {
@@ -92,7 +92,7 @@ export const DATA = {
         "Aligned stakeholders on the product vision of a home inspection tool and led a 12-member Agile team to develop the MVP for an initial user base of 1.5M+, aimed at increasing revenue by 6%",
         "Worked on user/data flows, product backlog, wireframes, feature feasibility assessment & prioritization, and MySQL DB design",
         "Formulated KPIs (e.g., incomplete and failed order bookings) to assess and improve business performance",
-        "Enhanced complex enterprise relocation products, while ensuring regulatory compliance in financial calculations, delivering 97% defect-free enhancements on time"
+        "Enhanced complex enterprise relocation platform, while ensuring regulatory compliance in financial calculations, delivering 97% defect-free enhancements on time"
       ]        
     },
     {
@@ -105,7 +105,7 @@ export const DATA = {
       start: "Oct 2020",
       end: "Feb 2021",
       description:
-      ["Interviewed 30 artisans and conducted secondary research to define the positioning of a B2B marketplace product",
+      ["Interviewed 30 artisans and conducted secondary competitor and user research to define the positioning of a B2B marketplace product",
         "Performed benchmarking to identify the optimal price point, & devised a marketing strategy featuring 8 promotional activities"
       ]
     },
@@ -134,7 +134,7 @@ export const DATA = {
         "Devised the GTM strategy for an IoT product in the cement industry, utilizing 4 distinct channels to maximize market reach",
     },
     {
-      company: "Infosys",
+      company: "Infosys Limited",
       href: "#",
       badges: [],
       location: "Bhubaneswar, Odisha, India",
@@ -175,14 +175,14 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "E-commerce app for a hyper-local stationery business",
-      href: "#",
+      title: "Stationery Junction",
+      href: "https://uat.stationeryjunction.com",
       dates: "Jan 2026 - Present",
       active: true,
       description: [
-        "Spearheaded the 0-to-1 AI-assisted development of a full-stack e-commerce application for B2B and B2C segments, defining product requirements and prioritizing the roadmap for both customer-facing purchasing journeys and internal admin tools",
-        "Drove rapid prototyping and technical integration using AI tools (Cursor, Antigravity) to build out complex workflows, seamlessly integrating multiple 3rd-party applications for SMS services, marketing and analytics",
-        "Optimized backend operations by designing scalable administrative features, including bulk product upload, customer segmentation, notifications, reporting and system-monitoring alerts, significantly reducing manual overhead for the business"
+        "Spearheaded the 0-to-1 AI-assisted development of a full-stack hyperlocal B2B and B2C e-commerce marketplace, defining product requirements and prioritizing the roadmap for customer-facing purchasing journeys, a vendor portal, and internal admin tools",
+        "Used AI tools (Cursor, Antigravity) to rapidly prototype complex workflows and integrate 3rd-party apps for SMS and marketing",
+        "Designed backend features such as bulk product upload, segmentation, notifications, analytics and alerts, reducing manual overhead"
       ],
       technologies: [
         "Python FastAPI",
@@ -195,7 +195,13 @@ export const DATA = {
         "Antigravity",
         "Oracle Cloud"
       ],
-      links: [],
+      links: [
+        {
+          type: "Website",
+          href: "https://uat.stationeryjunction.com",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
       image: "",
       video: "",
     }
