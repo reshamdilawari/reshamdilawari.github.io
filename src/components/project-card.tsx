@@ -90,26 +90,38 @@ export function ProjectCard({
         }}
       >
         <div className="space-y-1">
-          <CardTitle className="mt-1 text-base">
-            {isClickable ? (
+          <div className="flex items-center justify-between gap-x-2">
+            <CardTitle className="mt-1 text-base">
+              {isClickable ? (
+                <Link
+                  href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:underline"
+                >
+                  {title}
+                </Link>
+              ) : (
+                title
+              )}
+            </CardTitle>
+            {isClickable && (
               <Link
                 href={href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:underline inline-flex items-center gap-1.5"
+                className="inline-flex items-center gap-1 text-xs font-medium text-blue-500 hover:underline whitespace-nowrap"
               >
-                {title}
-                <span className="text-xs text-muted-foreground">↗</span>
+                <span>Visit Site</span>
+                <span className="text-blue-500">↗</span>
               </Link>
-            ) : (
-              title
             )}
-          </CardTitle>
+          </div>
           <time className="font-sans text-xs">{dates}</time>
           <div className="hidden font-sans text-xs underline print:visible">
             {link?.replace("https://", "").replace("www.", "").replace("/", "")}
           </div>
-          <Markdown className="prose max-w-full text-pretty font-sans text-xs text-muted-foreground dark:prose-invert">
+          <Markdown className="prose max-w-full text-pretty font-sans text-xs text-muted-foreground dark:prose-invert text-justify [&>p]:text-justify">
             {Array.isArray(description) ? (description as readonly string[]).join('\n\n') : (description as string)}
           </Markdown>
         </div>
