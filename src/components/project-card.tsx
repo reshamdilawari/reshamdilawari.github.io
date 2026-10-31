@@ -121,7 +121,7 @@ export function ProjectCard({
           <div className="hidden font-sans text-xs underline print:visible">
             {link?.replace("https://", "").replace("www.", "").replace("/", "")}
           </div>
-          <Markdown className="prose max-w-full text-pretty font-sans text-xs text-muted-foreground dark:prose-invert text-justify [&>p]:text-justify">
+          <Markdown className="prose max-w-full text-pretty font-sans text-xs text-foreground/85 dark:prose-invert [&>p]:leading-relaxed">
             {Array.isArray(description) ? (description as readonly string[]).join('\n\n') : (description as string)}
           </Markdown>
         </div>

@@ -94,16 +94,16 @@ export const ResumeCard = ({
                 duration: 0.7,
                 ease: [0.16, 1, 0.3, 1],
               }}
-              className="mt-2 text-xs sm:text-sm text-justify"
+              className="mt-2 text-xs sm:text-sm text-pretty text-foreground/85"
             >
               {Array.isArray(description) ? (
-                <ul className="list-disc pl-4 space-y-1 text-justify">
+                <ul className="list-disc pl-4 space-y-1.5">
                   {(description as readonly string[]).map((item, index) => (
-                    <li key={index} className="text-justify">{item}</li>
+                    <li key={index} className="text-pretty leading-relaxed text-foreground/85">{item}</li>
                   ))}
                 </ul>
               ) : (
-                <p className="text-justify">{description}</p>
+                <p className="text-pretty leading-relaxed text-foreground/85">{description}</p>
               )}
             </motion.div>
           )}
