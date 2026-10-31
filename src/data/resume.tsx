@@ -68,14 +68,14 @@ export const DATA = {
       end: "Present",
       description:
       [
-        "Owned product strategy and launch of a 0→1 AI-powered English learning LMS and revamp of a legacy product, scaling adoption to 300K+ users per product across 36,000+ schools and institutions",
-        "Defined and shipped the product roadmap across onboarding (Freemium upgrade, Guided Tour), engagement (Streaks, Leaderboard, Daily Boost challenge), and learning (Resume Learning, Dictionary, Translation, multi-content exploration) over 20+ Agile release cycles annually, with Daily Streaks driving a 33% increase in average session time to 11.2 minutes in 2 months",
-        "Integrated LLM-powered speaking evaluation and a Conversation agent with a Feedback Credits model to balance user experience and cost efficiency, and leveraged AI tools (Lovable, Antigravity) to generate designs and build feature prototypes, accelerating design iteration and feature validation",
-        "Conducted customer interviews, surveys, and competitor benchmarking, tracked metrics such as course completion rate, renewal rate, and feature adoption, and monitored support ticket trends to drive data-informed feature prioritisation and roadmap sequencing",
-        "Worked with cross-functional teams to mitigate delivery risk, and established structured QA and review loops to drive continuous improvements, achieving 96% on-time delivery of the product and content releases",
-        "Collaborated with Operations and Support teams on change management initiatives and phased roll-outs, maintaining 99% SLA and achieving 87% CSAT",
-        "Led the creation of application designs, product explainers, testimonials, promotional materials, and social media creatives with the Design team, supporting user acquisition and growth, reaching a high of 95K+ MAUs",
-        "Managed 7 strategic key accounts and partnered with 12+ entities, leading application integrations, streamlining onboarding for the accounts and delivering customised solutions, contributing to account renewals"
+        "Owned product strategy and launch of a **0→1 AI-powered English learning LMS** and revamp of a legacy product, scaling adoption to **300K+ users per product** across 36,000+ schools and institutions",
+        "Defined and shipped the product roadmap across **onboarding** (Freemium upgrade, Guided Tour), **engagement** (Streaks, Leaderboard, Daily Boost challenge), and learning (Resume Learning, Dictionary, Translation, multi-content exploration) over 20+ Agile release cycles annually, with Daily Streaks driving a **33% increase in average session time to 11.2 minutes in 2 months**",
+        "Integrated **LLM-powered speaking evaluation** and a **Conversation agent** with a Feedback Credits model to balance user experience and cost efficiency, and leveraged **AI tools (Lovable, Antigravity)** to generate designs and build feature prototypes, accelerating design iteration and feature validation",
+        "Conducted customer interviews, surveys, and competitor benchmarking, **tracked metrics** such as course completion rate, renewal rate, and feature adoption, and monitored support ticket trends to drive data-informed feature prioritisation and roadmap sequencing",
+        "Worked with cross-functional teams to mitigate delivery risk, and established structured QA and review loops to drive continuous improvements, achieving **96% on-time delivery** of the product and content releases",
+        "Collaborated with Operations and Support teams on change management initiatives and phased roll-outs, maintaining 99% SLA and achieving **87% CSAT**",
+        "Led the creation of application designs, product explainers, testimonials, **promotional materials**, and social media creatives with the Design team, supporting user acquisition and growth, reaching a high of **95K+ MAUs**",
+        "Managed **7 strategic key accounts** and partnered with 12+ entities, leading application integrations, streamlining onboarding for the accounts and delivering customised solutions, contributing to account renewals"
       ]
     },
     {
@@ -89,10 +89,10 @@ export const DATA = {
       end: "Dec 2022",
       description:
       [
-        "Aligned stakeholders on the product vision of a home inspection tool and led a 12-member Agile team to develop the MVP for an initial user base of 1.5M+, aimed at increasing revenue by 6%",
+        "**Aligned stakeholders** on the product vision of a home inspection tool and led a 12-member Agile team to develop the **MVP** for an initial user base of **1.5M+,** aimed at **increasing revenue by 6%**",
         "Worked on user/data flows, product backlog, wireframes, feature feasibility assessment & prioritization, and MySQL DB design",
-        "Formulated KPIs (e.g., incomplete and failed order bookings) to assess and improve business performance",
-        "Enhanced complex enterprise relocation platform, while ensuring regulatory compliance in financial calculations, delivering 97% defect-free enhancements on time"
+        "Formulated **KPIs** (e.g., incomplete and failed order bookings) to assess and improve business performance",
+        "Enhanced **complex enterprise relocation platform**, while ensuring regulatory compliance in financial calculations, delivering **97% defect-free enhancements on time**"
       ]        
     },
     {
@@ -105,8 +105,8 @@ export const DATA = {
       start: "Oct 2020",
       end: "Feb 2021",
       description:
-      ["Interviewed 30 artisans and conducted secondary competitor and user research to define the positioning of a B2B marketplace product",
-        "Performed benchmarking to identify the optimal price point, & devised a marketing strategy featuring 8 promotional activities"
+      ["Interviewed **30** artisans and conducted secondary competitor and user research to define the positioning of a B2B marketplace product",
+        "Performed benchmarking to identify the optimal price point, & devised a marketing strategy featuring **8** promotional activities"
       ]
     },
     {
@@ -144,9 +144,9 @@ export const DATA = {
       end: "Jun 2019",
       description:
       [
-        "Delivered 8+ defect-free APIs for a Health Insurance Digital Transformation project; trained 100+ peers on a test management tool",
-        "Implemented in-sprint process automation, reducing effort by 10% and improving overall efficiency",
-        "Received ‘Amazing Women of IVS’ and Insta awards for proactively raising defects and appreciation from client/scrum team"
+        "Delivered **8+** defect-free APIs for a Health Insurance **Digital Transformation** project; trained **100+** peers on a test management tool",
+        "Implemented in-sprint process automation, **reducing effort by 10%** and improving overall efficiency",
+        "Received **‘Amazing Women of IVS’** and **Insta** awards for proactively raising defects and appreciation from client/scrum team"
       ]
     },
   ],

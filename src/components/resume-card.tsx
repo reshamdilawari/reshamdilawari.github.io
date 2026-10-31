@@ -7,6 +7,7 @@ import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
 import { ChevronRightIcon } from "lucide-react";
 import Link from "next/link";
+import Markdown from "react-markdown";
 import React from "react";
 
 interface ResumeCardProps {
@@ -99,11 +100,19 @@ export const ResumeCard = ({
               {Array.isArray(description) ? (
                 <ul className="list-disc pl-4 space-y-1.5">
                   {(description as readonly string[]).map((item, index) => (
-                    <li key={index} className="text-pretty leading-relaxed text-foreground/85">{item}</li>
+                    <li key={index} className="text-pretty leading-relaxed text-foreground/85">
+                      <Markdown className="inline [&>p]:inline font-normal [&_strong]:font-semibold [&_strong]:text-foreground">
+                        {item}
+                      </Markdown>
+                    </li>
                   ))}
                 </ul>
               ) : (
-                <p className="text-pretty leading-relaxed text-foreground/85">{description}</p>
+                <div className="text-pretty leading-relaxed text-foreground/85">
+                  <Markdown className="inline [&>p]:inline font-normal [&_strong]:font-semibold [&_strong]:text-foreground">
+                    {description as string}
+                  </Markdown>
+                </div>
               )}
             </motion.div>
           )}
