@@ -180,7 +180,7 @@ export const DATA = {
       dates: "Jan 2026 - Present",
       active: true,
       description: [
-        "Spearheaded the 0-to-1 AI-assisted development of a full-stack hyperlocal B2B and B2C e-commerce marketplace, defining product requirements and prioritizing the roadmap for customer-facing purchasing journeys, a vendor portal, and internal admin tools",
+        "Spearheaded the **0-to-1 AI-assisted development** of a full-stack **hyperlocal B2B and B2C e-commerce marketplace**, defining product requirements and prioritizing the roadmap for customer-facing purchasing journeys, a vendor portal, and internal admin tools",
         "Used AI tools (Cursor, Antigravity) to rapidly prototype complex workflows and integrate 3rd-party apps for SMS and marketing",
         "Designed backend features such as bulk product upload, segmentation, notifications, analytics and alerts, reducing manual overhead"
       ],
