@@ -175,6 +175,35 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "My Learning Companion",
+      href: "https://mylearningcompanion.vercel.app/",
+      dates: "Nov 2026 - Present",
+      active: true,
+      description: [
+        "Spearheaded the **0-to-1 product strategy and development** of an **AI-native language learning platform**, integrating **Google Gemini LLMs** to deliver **real-time conversational voice coaching** and adaptive **CEFR (A1–C1) diagnostics**",
+        "Designed **personalized multi-modal feedback loops**—including automated grammar reels, interactive diagnostics, and **AI safety guardrails**—deployed across a production Next.js and FastAPI cloud stack"
+      ],
+      technologies: [
+        "Google Gemini LLMs",
+        "LangGraph",
+        "Next.js 15",
+        "TypeScript",
+        "Python FastAPI",
+        "Tailwind CSS",
+        "Edge-TTS",
+        "Vercel"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://mylearningcompanion.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
+    {
       title: "Stationery Junction",
       href: "https://uat.stationeryjunction.com",
       dates: "Jan 2026 - Present",
