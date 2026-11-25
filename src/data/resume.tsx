@@ -180,8 +180,8 @@ export const DATA = {
       dates: "Nov 2026 - Present",
       active: true,
       description: [
-        "Spearheaded the **0-to-1 product strategy and development** of an **AI-native language learning platform**, integrating **Google Gemini LLMs** to deliver **real-time conversational voice coaching** and adaptive **CEFR (A1–C1) diagnostics**",
-        "Designed **personalized multi-modal feedback loops**—including automated grammar reels, interactive diagnostics, and **AI safety guardrails**—deployed across a production Next.js and FastAPI cloud stack"
+        "Spearheaded **0-to-1 product strategy and launch** of an **AI-native English learning platform** (Next.js, FastAPI), combining adaptive **CEFR (A1–C1) diagnostics** with **Gemini-powered conversational roleplays and mock interviews**.",
+        "Designed **multi-modal feedback loops** and **AI unit economics**—pairing mistake remediation, micro-learning grammar reels, and **AI safety guardrails** with **cost-tiered LLM routing** and carryover subscription/top-up billing."
       ],
       technologies: [
         "Google Gemini LLMs",
